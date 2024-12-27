@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 1.0\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 14:20+0100\n"
+"POT-Creation-Date: 2024-12-27 14:36+0100\n"
 "PO-Revision-Date: 2003-04-14 06:17+0000\n"
 "Last-Translator: Eugen Hoanca <eugenh@urban-grafx.ro>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
@@ -591,11 +591,11 @@ msgstr ""
 msgid "Done."
 msgstr "Finalizat."
 
-#: ogg123/oggvorbis_format.c:208 ogg123/opus_format.c:192
+#: ogg123/oggvorbis_format.c:208 ogg123/opus_format.c:203
 msgid "--- Hole in the stream; probably harmless\n"
 msgstr "--- Pauzã în stream; probabil nedãunãtoare\n"
 
-#: ogg123/oggvorbis_format.c:214 ogg123/opus_format.c:198 oggdec/oggdec.c:323
+#: ogg123/oggvorbis_format.c:214 ogg123/opus_format.c:209 oggdec/oggdec.c:323
 #, c-format
 msgid "=== Vorbis library reported a stream error.\n"
 msgstr "=== Biblioteca Vorbis a raportat o eroare de stream.\n"
@@ -615,23 +615,33 @@ msgstr ""
 msgid "Bitrate hints: upper=%ld nominal=%ld lower=%ld window=%ld"
 msgstr "Sfaturi bitrate: superior=%ld nominal=%ld inferior=%ld fereastrã=%ld"
 
-#: ogg123/oggvorbis_format.c:378 ogg123/opus_format.c:358
+#: ogg123/oggvorbis_format.c:378 ogg123/opus_format.c:369
 #: ogg123/speex_format.c:416
 #, c-format
 msgid "Encoded by: %s"
 msgstr "Encodat de: %s"
 
-#: ogg123/opus_format.c:346
+#: ogg123/opus_format.c:171
+#, c-format
+msgid "Applying album gain: %.2f dB"
+msgstr ""
+
+#: ogg123/opus_format.c:176
+#, c-format
+msgid "Applying track gain: %.2f dB"
+msgstr ""
+
+#: ogg123/opus_format.c:357
 #, fuzzy, c-format
 msgid "Ogg Opus stream: %d channel, 48000 Hz"
 msgstr "Ogg Opus bitstreamul este canal %d, 48000 Hz"
 
-#: ogg123/opus_format.c:350
+#: ogg123/opus_format.c:361
 #, c-format
 msgid "Output gain: %.2f dB"
 msgstr ""
 
-#: ogg123/opus_format.c:354
+#: ogg123/opus_format.c:365
 #, c-format
 msgid "Opus format: Version %d"
 msgstr ""
