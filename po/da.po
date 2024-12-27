@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 0.99.1.3.1\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 14:05+0100\n"
+"POT-Creation-Date: 2024-12-27 14:20+0100\n"
 "PO-Revision-Date: 2002-11-09 14:59+0100\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: Danish <dansk@klid.dk>\n"
@@ -613,7 +613,7 @@ msgstr ""
 msgid "Bitrate hints: upper=%ld nominal=%ld lower=%ld window=%ld"
 msgstr "Forslag for bithastigheder: øvre=%ld nominel=%ld nedre=%ld vindue=%ld"
 
-#: ogg123/oggvorbis_format.c:378 ogg123/opus_format.c:354
+#: ogg123/oggvorbis_format.c:378 ogg123/opus_format.c:358
 #: ogg123/speex_format.c:416
 #, c-format
 msgid "Encoded by: %s"
@@ -625,6 +625,11 @@ msgid "Ogg Opus stream: %d channel, 48000 Hz"
 msgstr "Ogg Opus bitstrømmen har %d kanaler, 48000 Hz"
 
 #: ogg123/opus_format.c:350
+#, c-format
+msgid "Output gain: %.2f dB"
+msgstr ""
+
+#: ogg123/opus_format.c:354
 #, c-format
 msgid "Opus format: Version %d"
 msgstr ""

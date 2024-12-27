@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 1.2.1\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 14:05+0100\n"
+"POT-Creation-Date: 2024-12-27 14:20+0100\n"
 "PO-Revision-Date: 2008-10-12 14:31+0200\n"
 "Last-Translator: Miloslav Trmač <mitr@volny.cz>\n"
 "Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
@@ -645,7 +645,7 @@ msgstr "Formát Vorbis: Verze %d"
 msgid "Bitrate hints: upper=%ld nominal=%ld lower=%ld window=%ld"
 msgstr "Nápovědy bitrate: vyšší=%ld nominální=%ld nižší=%ld okno=%ld"
 
-#: ogg123/oggvorbis_format.c:378 ogg123/opus_format.c:354
+#: ogg123/oggvorbis_format.c:378 ogg123/opus_format.c:358
 #: ogg123/speex_format.c:416
 #, c-format
 msgid "Encoded by: %s"
@@ -657,6 +657,11 @@ msgid "Ogg Opus stream: %d channel, 48000 Hz"
 msgstr "Proud Ogg Opus: %d kanálů, 48000 Hz"
 
 #: ogg123/opus_format.c:350
+#, c-format
+msgid "Output gain: %.2f dB"
+msgstr ""
+
+#: ogg123/opus_format.c:354
 #, fuzzy, c-format
 msgid "Opus format: Version %d"
 msgstr "Formát Opus: Verze %d"
