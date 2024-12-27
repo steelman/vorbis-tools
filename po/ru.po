@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 1.1.1\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2021-01-19 14:03+0000\n"
+"POT-Creation-Date: 2024-12-27 13:15+0100\n"
 "PO-Revision-Date: 2007-07-26 15:01+0300\n"
 "Last-Translator: Dmitry D. Stasyuk <stdms@mail.ru>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
@@ -488,9 +488,9 @@ msgid "  -V, --version           Display ogg123 version\n"
 msgstr ""
 
 #: ogg123/file_transport.c:64 ogg123/http_transport.c:215
-#: ogg123/oggvorbis_format.c:106 ogg123/speex_format.c:152
-#: ogg123/vorbis_comments.c:67 ogg123/vorbis_comments.c:81
-#: ogg123/vorbis_comments.c:99
+#: ogg123/oggvorbis_format.c:106 ogg123/opus_format.c:103
+#: ogg123/speex_format.c:152 ogg123/vorbis_comments.c:67
+#: ogg123/vorbis_comments.c:81 ogg123/vorbis_comments.c:99
 #, fuzzy, c-format
 msgid "ERROR: Out of memory.\n"
 msgstr "Ошибка: Не достаточно памяти.\n"
@@ -599,11 +599,11 @@ msgstr ""
 msgid "Done."
 msgstr "Завершено."
 
-#: ogg123/oggvorbis_format.c:208
+#: ogg123/oggvorbis_format.c:208 ogg123/opus_format.c:192
 msgid "--- Hole in the stream; probably harmless\n"
 msgstr "--- В потоке пусто; возможно, ничего страшного\n"
 
-#: ogg123/oggvorbis_format.c:214 oggdec/oggdec.c:323
+#: ogg123/oggvorbis_format.c:214 ogg123/opus_format.c:198 oggdec/oggdec.c:323
 #, c-format
 msgid "=== Vorbis library reported a stream error.\n"
 msgstr "=== Библиотека Vorbis сообщила об ошибке потока.\n"
@@ -613,7 +613,7 @@ msgstr "=== Библиотека Vorbis сообщила об ошибке по�
 msgid "Ogg Vorbis stream: %d channel, %ld Hz"
 msgstr "Поток Ogg Vorbis: %d канал, %ld Гц"
 
-#: ogg123/oggvorbis_format.c:366
+#: ogg123/oggvorbis_format.c:366 ogg123/opus_format.c:350
 #, c-format
 msgid "Vorbis format: Version %d"
 msgstr "Формат Vorbis: Версия %d"
@@ -623,10 +623,16 @@ msgstr "Формат Vorbis: Версия %d"
 msgid "Bitrate hints: upper=%ld nominal=%ld lower=%ld window=%ld"
 msgstr "Значения битрейта: верхнее=%ld номинальное=%ld нижнее=%ld окно=%ld"
 
-#: ogg123/oggvorbis_format.c:378 ogg123/speex_format.c:416
+#: ogg123/oggvorbis_format.c:378 ogg123/opus_format.c:354
+#: ogg123/speex_format.c:416
 #, c-format
 msgid "Encoded by: %s"
 msgstr "Кодирование: %s"
+
+#: ogg123/opus_format.c:346
+#, fuzzy, c-format
+msgid "Ogg Opus stream: %d channel, 48000 Hz"
+msgstr "Поток Ogg Opus: %d канал, 48000 Гц"
 
 #: ogg123/playlist.c:46 ogg123/playlist.c:57
 #, fuzzy, c-format
