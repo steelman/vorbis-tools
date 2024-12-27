@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 1.2.1\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 13:15+0100\n"
+"POT-Creation-Date: 2024-12-27 14:05+0100\n"
 "PO-Revision-Date: 2008-09-21 16:26-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
@@ -639,7 +639,7 @@ msgstr "=== La biblioteko de Vorbis raportis eraron pri fluo.\n"
 msgid "Ogg Vorbis stream: %d channel, %ld Hz"
 msgstr "Fluo de Ogg Vorbis: %d kanalo, %ld Hz"
 
-#: ogg123/oggvorbis_format.c:366 ogg123/opus_format.c:350
+#: ogg123/oggvorbis_format.c:366
 #, c-format
 msgid "Vorbis format: Version %d"
 msgstr "Formo de Vorbis: Versio %d"
@@ -660,6 +660,11 @@ msgstr "Enkodita de: %s"
 #, fuzzy, c-format
 msgid "Ogg Opus stream: %d channel, 48000 Hz"
 msgstr "Fluo de Ogg Opus: %d kanalo, %ld Hz"
+
+#: ogg123/opus_format.c:350
+#, fuzzy, c-format
+msgid "Opus format: Version %d"
+msgstr "Formo de Opus: Versio %d"
 
 #: ogg123/playlist.c:46 ogg123/playlist.c:57
 #, fuzzy, c-format

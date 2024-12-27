@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 1.2.1\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 13:15+0100\n"
+"POT-Creation-Date: 2024-12-27 14:05+0100\n"
 "PO-Revision-Date: 2008-09-22 18:57+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -658,7 +658,7 @@ msgstr "━━ Thư viên Vorbis đã thông báo lỗi luồng.\n"
 msgid "Ogg Vorbis stream: %d channel, %ld Hz"
 msgstr "Luồng Ogg Vorbis: %d kênh, %ld Hz"
 
-#: ogg123/oggvorbis_format.c:366 ogg123/opus_format.c:350
+#: ogg123/oggvorbis_format.c:366
 #, c-format
 msgid "Vorbis format: Version %d"
 msgstr "Định dạng Vorbis: phiên bản %d"
@@ -678,6 +678,11 @@ msgstr "Mã hóa do : %s"
 #, fuzzy, c-format
 msgid "Ogg Opus stream: %d channel, 48000 Hz"
 msgstr "Luồng Ogg Opus: %d kênh, 48000 Hz"
+
+#: ogg123/opus_format.c:350
+#, fuzzy, c-format
+msgid "Opus format: Version %d"
+msgstr "Định dạng Opus: phiên bản %d"
 
 #: ogg123/playlist.c:46 ogg123/playlist.c:57
 #, fuzzy, c-format

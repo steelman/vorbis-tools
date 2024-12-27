@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 1.1.1\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 13:15+0100\n"
+"POT-Creation-Date: 2024-12-27 14:05+0100\n"
 "PO-Revision-Date: 2008-03-20 20:15+0100\n"
 "Last-Translator: Peter Tuhársky <tuharsky@misbb.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -611,7 +611,7 @@ msgstr "=== Knihovna vorbis ohlásila chybu proudu.\n"
 msgid "Ogg Vorbis stream: %d channel, %ld Hz"
 msgstr "Prúd údajov Ogg Vorbis: %d kanál, %ld Hz"
 
-#: ogg123/oggvorbis_format.c:366 ogg123/opus_format.c:350
+#: ogg123/oggvorbis_format.c:366
 #, c-format
 msgid "Vorbis format: Version %d"
 msgstr "Vorbis formát: Verzia %d"
@@ -631,6 +631,11 @@ msgstr "Kódováno s: %s"
 #, fuzzy, c-format
 msgid "Ogg Opus stream: %d channel, 48000 Hz"
 msgstr "Prúd údajov Ogg Opus: %d kanál, 48000 Hz"
+
+#: ogg123/opus_format.c:350
+#, fuzzy, c-format
+msgid "Opus format: Version %d"
+msgstr "Opus formát: Verzia %d"
 
 #: ogg123/playlist.c:46 ogg123/playlist.c:57
 #, fuzzy, c-format

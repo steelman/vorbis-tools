@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools-1.3.0pre2\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 13:15+0100\n"
+"POT-Creation-Date: 2024-12-27 14:05+0100\n"
 "PO-Revision-Date: 2008-11-13 15:44+0100\n"
 "Last-Translator: Erwin Poeze <erwin.poeze@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -638,7 +638,7 @@ msgstr "=== Vorbisbibliotheek heeft stroomfout gerapporteerd.\n"
 msgid "Ogg Vorbis stream: %d channel, %ld Hz"
 msgstr "Ogg-Vorbisstroom: %d kanaal, %ld Hz"
 
-#: ogg123/oggvorbis_format.c:366 ogg123/opus_format.c:350
+#: ogg123/oggvorbis_format.c:366
 #, c-format
 msgid "Vorbis format: Version %d"
 msgstr "Vorbisindeling: versie %d"
@@ -658,6 +658,11 @@ msgstr "Gecodeerd door: %s"
 #, fuzzy, c-format
 msgid "Ogg Opus stream: %d channel, 48000 Hz"
 msgstr "Ogg-Opusstroom: %d kanaal, 48000 Hz"
+
+#: ogg123/opus_format.c:350
+#, fuzzy, c-format
+msgid "Opus format: Version %d"
+msgstr "Opusindeling: versie %d"
 
 #: ogg123/playlist.c:46 ogg123/playlist.c:57
 #, c-format

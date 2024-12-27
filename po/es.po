@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 1.0\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 13:15+0100\n"
+"POT-Creation-Date: 2024-12-27 14:05+0100\n"
 "PO-Revision-Date: 2003-01-03 22:48+0100\n"
 "Last-Translator: Enric Martínez <exter@wanadoo.es>\n"
 "Language-Team: Spanish <es@li.org>\n"
@@ -633,7 +633,7 @@ msgstr "=== La biblioteca Vorbis indica un error en el flujo de datos.\n"
 msgid "Ogg Vorbis stream: %d channel, %ld Hz"
 msgstr "El flujo de bits es de %d canal(es), %ldHz"
 
-#: ogg123/oggvorbis_format.c:366 ogg123/opus_format.c:350
+#: ogg123/oggvorbis_format.c:366
 #, c-format
 msgid "Vorbis format: Version %d"
 msgstr ""
@@ -657,6 +657,11 @@ msgstr "Codificado por: %s"
 #, fuzzy, c-format
 msgid "Ogg Opus stream: %d channel, 48000 Hz"
 msgstr "El flujo de bits de Ogg Opus es de %d canal(es), 48000 Hz"
+
+#: ogg123/opus_format.c:350
+#, c-format
+msgid "Opus format: Version %d"
+msgstr ""
 
 #: ogg123/playlist.c:46 ogg123/playlist.c:57
 #, fuzzy, c-format

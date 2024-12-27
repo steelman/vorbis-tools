@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 1.1.1\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 13:15+0100\n"
+"POT-Creation-Date: 2024-12-27 14:05+0100\n"
 "PO-Revision-Date: 2007-07-26 15:01+0300\n"
 "Last-Translator: Dmitry D. Stasyuk <stdms@mail.ru>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
@@ -613,7 +613,7 @@ msgstr "=== Библиотека Vorbis сообщила об ошибке по�
 msgid "Ogg Vorbis stream: %d channel, %ld Hz"
 msgstr "Поток Ogg Vorbis: %d канал, %ld Гц"
 
-#: ogg123/oggvorbis_format.c:366 ogg123/opus_format.c:350
+#: ogg123/oggvorbis_format.c:366
 #, c-format
 msgid "Vorbis format: Version %d"
 msgstr "Формат Vorbis: Версия %d"
@@ -633,6 +633,11 @@ msgstr "Кодирование: %s"
 #, fuzzy, c-format
 msgid "Ogg Opus stream: %d channel, 48000 Hz"
 msgstr "Поток Ogg Opus: %d канал, 48000 Гц"
+
+#: ogg123/opus_format.c:350
+#, fuzzy, c-format
+msgid "Opus format: Version %d"
+msgstr "Формат Opus: Версия %d"
 
 #: ogg123/playlist.c:46 ogg123/playlist.c:57
 #, fuzzy, c-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vorbis-tools 0.99.1.3.1\n"
 "Report-Msgid-Bugs-To: https://trac.xiph.org/\n"
-"POT-Creation-Date: 2024-12-27 13:15+0100\n"
+"POT-Creation-Date: 2024-12-27 14:05+0100\n"
 "PO-Revision-Date: 2002-06-16 02:15-01\n"
 "Last-Translator: Vlatko Kosturjak <kost@linux.hr>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -588,7 +588,7 @@ msgstr ""
 msgid "Ogg Vorbis stream: %d channel, %ld Hz"
 msgstr ""
 
-#: ogg123/oggvorbis_format.c:366 ogg123/opus_format.c:350
+#: ogg123/oggvorbis_format.c:366
 #, c-format
 msgid "Vorbis format: Version %d"
 msgstr ""
@@ -607,6 +607,11 @@ msgstr "Enkodirao: %s"
 #: ogg123/opus_format.c:346
 #, c-format
 msgid "Ogg Opus stream: %d channel, 48000 Hz"
+msgstr ""
+
+#: ogg123/opus_format.c:350
+#, c-format
+msgid "Opus format: Version %d"
 msgstr ""
 
 #: ogg123/playlist.c:46 ogg123/playlist.c:57
